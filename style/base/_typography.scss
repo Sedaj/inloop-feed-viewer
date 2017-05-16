@@ -1,0 +1,16 @@
+body {
+        color: $primary-color;
+    font-size: $base-font-size;
+  font-family: $base-font-family;
+  line-height: 1.6;
+}
+
+h1, .h1 { font-size: 2.00em; }
+h2, .h2 { font-size: 1.75em; }
+h3, .h3 { font-size: 1.50em; }
+h4, .h4 { font-size: 1.25em; }
+h5, .h5 { font-size: 1.00em; }
+
+.small {
+  font-size: 0.9em;
+}

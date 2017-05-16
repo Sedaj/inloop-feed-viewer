@@ -1,0 +1,25 @@
+.btn {
+  &--primary {
+    background-color: $additional-color;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #fff;
+    user-select: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: All 0.2s linear;
+    box-shadow: 6px 7px 6px -3px rgba(100, 100, 100, 0.75);
+    &:hover {
+      background-color: darken($additional-color, 20%);
+    }
+    &:active {
+      background-color: lighten($additional-color, 5%);
+      box-shadow: 6px 7px 11px -6px rgba(100, 100, 100, 0.75);
+    }
+    &--remove-comment {
+      padding: 10px 15px;
+      border-radius: 50%;
+    }
+  }
+}

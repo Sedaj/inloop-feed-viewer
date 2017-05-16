@@ -1,0 +1,14 @@
+.header {
+  background-color: $secondary-color;
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  opacity: 1;
+  top: 0;
+  max-height: $header-height;
+  span {
+    font-family: monospace;
+  }
+}
